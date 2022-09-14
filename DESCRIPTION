@@ -1,0 +1,25 @@
+Package: amazonR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Andrea", "Castagna", , "mail@andreacastagna.cloud", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: It runs a function to check the name of Amazon products given its ASIN.
+License: mit_licence()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
+
+Depends:
+    R (>= 2.10)
+Imports:
+readxl
+tidyverse
+tibble
+openxlsx
+gdata
+lubridate
+rvest
+stringr
+dplyr
+purrr
